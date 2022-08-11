@@ -1,4 +1,4 @@
-from ansiblelint import AnsibleLintRule
+from ansiblelint.rules import AnsibleLintRule
 
 # FIXME: how to get include task?
 class TaskIncludeShouldHaveTags(AnsibleLintRule):
